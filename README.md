@@ -7,11 +7,6 @@ This repository contains my Vim configuration, organized in a `.vim` folder. Fol
 1. Clone this repository to your home directory:
 
 
-    ```bash
-    git clone https://github.com/your-username/your-vim-config.git ~/.vim
-    ```
-
-
 2. Create a symbolic link from the new location to your home directory:
 
 
@@ -23,10 +18,8 @@ This repository contains my Vim configuration, organized in a `.vim` folder. Fol
 
 
     ```bash
-    # For Vim
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-
+    ```
 
 4. Open Vim and run `:PlugInstall` to install the plugins specified in your `.vimrc`.
